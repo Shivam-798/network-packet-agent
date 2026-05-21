@@ -1,0 +1,13 @@
+[project]
+name = "network-packet-agent"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langgraph",
+    "langchain-core",
+    "google-genai",
+    "scapy",
+    "python-dotenv",
+    "websockets"
+]
